@@ -46,8 +46,24 @@ body {
 
 .toast {
     background-color: #666;
-    color: aliceblue;
     border-radius: 5px;
     padding: 1rem 2rem;
     margin: 0.5rem;
+    font-weight: bold;
+}
+
+.toast.info {
+    color: lightskyblue;
+}
+
+.toast.success {
+    color: lightgreen;
+}
+
+.toast.error {
+    color: orangered;
+}
+
+.toast.warning {
+    color: orange;
 }
